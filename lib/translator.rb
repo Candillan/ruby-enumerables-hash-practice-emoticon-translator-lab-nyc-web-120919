@@ -10,7 +10,7 @@ def load_library
     "get_japanese_emoticon" => {}
   }
   
-  emotes.each { | 
+  emotes.each { |key, value|
 end
 
 def get_japanese_emoticon
