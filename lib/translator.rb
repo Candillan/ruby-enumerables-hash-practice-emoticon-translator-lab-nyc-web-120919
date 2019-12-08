@@ -11,7 +11,7 @@ def load_library
   }
   
   emotes.each { |key, value|
-	  result["get_japanese_emoticon"][value[0]] = emotes[key[1]
+	  result["get_japanese_emoticon"][value[0]] = emotes[key[1]]
 	  result["get_english_meaning"][value[1]] = key
 	}
   result
