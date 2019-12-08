@@ -3,11 +3,12 @@ requires "yaml"
 
 def load_library
   # code goes here
-  emotes = YAML.load_file('')
+  emotes = YAML.load_file('emoticons.yml')
 end
 
 def get_japanese_emoticon
   # code goes here
+  
 end
 
 def get_english_meaning
