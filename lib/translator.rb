@@ -10,7 +10,7 @@ def load_library
     "get_japanese_emoticon" => {}
   }
   
-  emotes 
+  emotes.each 
 end
 
 def get_japanese_emoticon
