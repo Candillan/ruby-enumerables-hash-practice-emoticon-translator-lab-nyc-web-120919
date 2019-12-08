@@ -11,6 +11,7 @@ def load_library
   }
   
   emotes.each { |key, value|
+  
 end
 
 def get_japanese_emoticon
